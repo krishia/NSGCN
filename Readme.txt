@@ -1,0 +1,5 @@
+All the experimental data are included in folder of [data], the iterms in feature_poi.txt, label.txt and sv_features.txt are corresponded as the order.
+The label.txt recorded the label of different urban scenes, 1 represents commercial, financial and office; 2 represents scientific research and education; 3 represents residential 4 represents green spaces, squares and parks.
+The features of POIs are included in feature_poi.txt, and it describes 13 dimensional features of 1282 scenes after frequency normalization of POI (13 types of POIs are included).
+The features of SVIs are included in sv_features.txt, and it describes the results of semantic segmentation for SVIs in 1282 urban scenes, and they are described by 64 dimensional features of 1282 scenes (64 types of semantic segmentation types are obtained)
+The scene node representation is recorded in taz_point.shp. The centroid of the scene is taken as the scene representation to organize the scene by a graph. (mainly using its XY coordinates)
